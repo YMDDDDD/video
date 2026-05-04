@@ -1,0 +1,20 @@
+{
+    "configurations": [
+        {
+            "name": "Linux",
+            "includePath": [
+                "${workspaceFolder}/**",
+                "/home/dxy/linux/rk3568_sdk/kernel/include", 
+                "/home/dxy/linux/rk3568_sdk/kernel/arch/arm64/include", 
+                "/home/dxy/linux/rk3568_sdk/kernel/arch/arm64/include/generated/"
+            ],
+            "defines": ["__KERNEL__"],
+            "compilerPath": "/usr/bin/gcc",
+            "cStandard": "gnu89",
+            "cppStandard": "c++17",
+            "intelliSenseMode": "clang-x64"
+        }
+    ],
+    
+    "version": 4
+}
